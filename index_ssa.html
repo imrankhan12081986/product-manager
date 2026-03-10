@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Imran Khan | Senior Solution Architect</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-dark': '#005f73',
+                        'accent-color': '#0a9396',
+                        'background-light': '#fefefe',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"/>
+    <style>
+        body { background-color: #f3f4f6; font-family: 'Inter', sans-serif; padding: 20px; }
+        .resume-container { max-width: 800px; margin: 0 auto; }
+        .section-header-main { border-bottom: 2px solid #ddd; padding-bottom: 4px; margin-bottom: 12px; }
+        .dot { height: 5px; width: 5px; background-color: white; border-radius: 50%; display: inline-block; margin-right: 8px; }
+        .experience-list li::before { content: '•'; color: #005f73; font-weight: bold; display: inline-block; width: 1em; margin-left: -1em; }
+        .no-break { page-break-inside: avoid; break-inside: avoid; }
+    </style>
+</head>
+<body>
+<div class="resume-container rounded-lg shadow-2xl overflow-hidden">
+<div class="flex flex-col md:flex-row">
+    <div class="w-full md:w-5/12 lg:w-4/12 bg-primary-dark text-white p-6 space-y-6">
+        <div class="flex justify-center mb-6 pt-2 no-break">
+            <img alt="Imran Khan Profile Picture" class="rounded-full h-32 w-32 object-cover border-4 border-white shadow-lg" crossorigin="anonymous" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='128' viewBox='0 0 128 128'%3E%3Ccircle cx='64' cy='64' r='64' fill='%23005f73'/%3E%3Ctext x='64' y='74' text-anchor='middle' fill='white' font-size='48' font-family='Arial'%3EIK%3C/text%3E%3C/svg%3E"/>
+        </div>
+        <div class="space-y-1 text-sm no-break">
+            <p class="font-semibold">📞 +91 8948793006</p>
+            <p class="font-semibold">📧 ikhan793006@gmail.com</p>
+            <p class="font-semibold">📍 Pune (MH), IN 411014</p>
+        </div>
+        <div class="pt-4 no-break">
+            <h3 class="text-lg font-bold uppercase tracking-wider border-b-2 border-white pb-1 mb-3">Summary</h3>
+            <p class="text-sm leading-snug">
+                Senior Solution Architect with 14+ years of experience advising enterprises and government organizations on digital strategy, experience platforms, and enterprise-grade custom software solutions across APAC and Europe. Expert in solution architecture, product strategy alignment, and consultative advisory—covering end-to-end discovery and complex requirement analysis for winning proposals and scalable blueprints.
+                <br/><br/>
+                Proven ability to architect large-scale SaaS ecosystems, balancing out-of-the-box platform capabilities with tailored customizations and integrations. Hands-on experience across proprietary software suites, workflow automation tools, and mobile applications, ensuring secure, high-performing enterprise technology solutions that drive measurable business outcomes.
+            </p>
+        </div>
+        <div class="no-break">
+            <h3 class="text-lg font-bold uppercase tracking-wider border-b-2 border-white pb-1 mb-3">Skills</h3>
+            <ul class="text-sm space-y-1">
+                <li class="flex items-center"><span class="dot"></span> Enterprise Solution Architecture</li>
+                <li class="flex items-center"><span class="dot"></span> SaaS Functional Architecture</li>
+                <li class="flex items-center"><span class="dot"></span> RFP/RFQ/Tender Requirement Analysis</li>
+                <li class="flex items-center"><span class="dot"></span> Proposal Authoring & Executive Decks</li>
+                <li class="flex items-center"><span class="dot"></span> CRM & Workforce Management Systems</li>
+                <li class="flex items-center"><span class="dot"></span> API Design & Microservices</li>
+                <li class="flex items-center"><span class="dot"></span> Mobile & Web Experience Design</li>
+                <li class="flex items-center"><span class="dot"></span> Integrations: SSO, HRIS, Third-Party APIs</li>
+                <li class="flex items-center"><span class="dot"></span> GenAI-Enabled Workflow Architecture</li>
+                <li class="flex items-center"><span class="dot"></span> Stakeholder Advisory (Executive Level)</li>
+                <li class="flex items-center"><span class="dot"></span> Agile / Scrum & Enterprise Delivery</li>
+                <li class="flex items-center"><span class="dot"></span> Product Strategy & Platform Roadmapping</li>
+            </ul>
+        </div>
+        <div class="no-break">
+            <h3 class="text-lg font-bold uppercase tracking-wider border-b-2 border-white pb-1 mb-3">LinkedIn</h3>
+            <a class="text-sm underline hover:text-cyan-200" href="https://www.linkedin.com/in/imran-k-68533519/" rel="noopener noreferrer" target="_blank">imran-khan-68533519</a>
+        </div>
+    </div>
+
+    <div class="w-full md:w-7/12 lg:w-8/12 bg-white p-8 space-y-6 text-gray-800">
+        <header class="pb-4 flex justify-between items-start no-break">
+            <div>
+                <h1 class="text-4xl font-extrabold text-primary-dark">Imran Khan</h1>
+                <h2 class="text-xl font-medium text-gray-600 mt-1">Senior Solution Architect | Consultant</h2>
+            </div>
+            <button class="p-2 mt-1 text-primary-dark hover:text-accent-color transition duration-150 rounded-full hover:bg-gray-100 flex-shrink-0" onclick="downloadResumeAsPDF()" title="Download as PDF">
+                <svg class="lucide lucide-file-text" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path>
+                    <path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 12H8"></path><path d="M16 12h-2"></path><path d="M10 16H8"></path><path d="M16 16h-2"></path>
+                </svg>
+            </button>
+        </header>
+
+        <section class="no-break">
+            <h3 class="text-xl font-bold uppercase section-header-main text-accent-color">Experience</h3>
+            <div class="mb-4 no-break">
+                <p class="flex justify-between font-semibold text-lg text-gray-900">
+                    <span>Senior Solution Architect (Enterprise Products) at Texala Technologies</span>
+                </p>
+                <p class="text-sm text-gray-500 font-normal">January 2020 - Current | Pune, IN</p>
+                <ul class="list-none experience-list ml-4 text-sm space-y-1 mt-2">
+                    <li><strong>Enterprise Solution Architecture:</strong> Leading architecture for high-scale products across CRM and workforce management platforms, owning strategy alignment and roadmap execution.</li>
+                    <li><strong>Functional & Technical Design:</strong> Defining solution blueprints covering data flows and non-functional requirements, optimizing both SaaS platform capabilities and custom extensions.</li>
+                    <li><strong>Delivery Governance:</strong> Establishing engineering standards and risk mitigation frameworks across concurrent global initiatives.</li>
+                    <li><strong>GenAI Innovation:</strong> Architected and drove GenAI-enabled capabilities including intelligent workflow automation and decision support analytics.</li>
+                </ul>
+            </div>
+
+            <div class="mb-4 no-break">
+                <p class="flex justify-between font-semibold text-lg text-gray-900">
+                    <span>Senior Solution Architect at MQ Spectrum (Kydon Holding)</span>
+                </p>
+                <p class="text-sm text-gray-500 font-normal">January 2019 - January 2020 | Singapore</p>
+                <ul class="list-none experience-list ml-4 text-sm space-y-1 mt-2">
+                    <li><strong>Strategic Solution Advisory:</strong> Trusted advisor for Singapore Government clients, owning end-to-end solutioning for 20+ large-scale RFPs, including architecture and compliance mapping.</li>
+                    <li><strong>SaaS Implementation:</strong> Defined implementation approaches for enterprise rollouts, covering configuration, API integrations, and data migration governance.</li>
+                    <li><strong>Platform Architecture:</strong> Architected end-to-end digital experience solutions focusing on user engagement, cross-platform interoperability, and enterprise scalability.</li>
+                </ul>
+            </div>
+
+            <div class="mb-4 no-break">
+                <p class="flex justify-between font-semibold text-lg text-gray-900">
+                    <span>Senior Business Analyst at Encora Digital</span>
+                </p>
+                <p class="text-sm text-gray-500 font-normal">January 2016 - January 2019 | Pune</p>
+                <ul class="list-none experience-list ml-4 text-sm space-y-1 mt-2">
+                    <li><strong>Discovery & Transformation:</strong> Led client workshops with senior HR and IT stakeholders to define business outcomes and co-create future-state digital solutions for enterprise transformation.</li>
+                    <li><strong>Proposal Leadership:</strong> Submitted 100+ complex technical proposals across APAC and Europe, positioning proprietary SaaS suites against major global competitors (SAP, Oracle, etc.).</li>
+                    <li><strong>Product Specification:</strong> Configured modules and roles to client requirements; defined functional specs for high-value platform enhancements and integration blueprints.</li>
+                </ul>
+            </div>
+
+            <div class="mb-4 no-break">
+                <p class="flex justify-between font-semibold text-lg text-gray-900">
+                    <span>Business Analyst at Unicode Systems</span>
+                </p>
+                <p class="text-sm text-gray-500 font-normal">January 2013 - January 2016 | Lucknow</p>
+                <ul class="list-none experience-list ml-4 text-sm space-y-1 mt-2">
+                    <li class="editable"><b>E-commerce Transformation:</b> Led requirement discovery for large-scale B2B/B2C platforms, engaging stakeholders to define core business objectives and operational workflows.</li>
+        <li class="editable"><b>Requirement Lifecycle:</b> Translated complex client needs into high-quality BRDs, FRDs, and user stories, ensuring 100% alignment between business vision and technical execution.</li>
+        <li class="editable"><b>Prototyping & UX:</b> Designed low-fidelity and high-fidelity wireframes to validate architecture with stakeholders early, significantly reducing development rework and logic gaps.</li>
+        <li class="editable"><b>UAT & Quality Governance:</b> Spearheaded User Acceptance Testing (UAT) and managed defect triage, acting as the primary liaison between clients and engineering to ensure enterprise-grade quality.</li>
+                </ul>
+            </div>
+        </section>
+        <div class="mb-4 no-break">
+    <p class="flex justify-between font-semibold text-lg text-gray-900">
+        <span class="editable">Senior Software Engineer & Analyst at APART India</span>
+    </p>
+    <p class="text-sm text-gray-500 font-normal">January 2011 - January 2013 | Pune</p>
+    <ul class="list-none experience-list ml-4 text-sm space-y-1 mt-2">
+        <li class="editable"><b>Full-Stack Development:</b> Led the design and development of in-house enterprise platforms, including a high-concurrency LAN-based examination system and custom web applications using PHP and MySQL.</li>
+        <li class="editable"><b>Digital Infrastructure:</b> Spearheaded the implementation of scalable content management systems and custom plugin development to extend platform functionality.</li>
+        <li class="editable"><b>System Architecture:</b> Architected data schemas and assessment workflows, ensuring high availability and data integrity for large-scale institutional deployments.</li>
+        <li class="editable"><b>Technical Leadership:</b> Owned the end-to-end technical lifecycle, from requirement mapping and database design to deployment and performance tuning.</li>
+    </ul>
+</div>
+
+</section>
+
+
+        <section class="no-break">
+            <h3 class="text-xl font-bold uppercase section-header-main text-accent-color">Education</h3>
+            <ul class="text-sm space-y-1">
+                <li class="font-semibold">MBA | PGDM — PIBM, Pune</li>
+                <li class="font-semibold">BCA | Science — Pune University</li>
+            </ul>
+        </section>
+    </div>
+</div>
+</div>
+
+<script>
+    function downloadResumeAsPDF() {
+        const element = document.querySelector('.resume-container');
+        const options = {
+            margin: [10, 10, 10, 10], 
+            filename: 'Imran_Khan_Solution_Architect.pdf',
+            image: { type: 'jpeg', quality: 0.98 },
+            html2canvas: { scale: 2, useCORS: true }, 
+            jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+        };
+        html2pdf().set(options).from(element).save();
+    }
+</script>
+</body>
+</html>
